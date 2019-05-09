@@ -14,3 +14,5 @@ public class PropertiesClientApplicationTests {
 	}
 
 }
+
+//http://appsdeveloperblog.com/spring-cloud-config-server-and-config-client/

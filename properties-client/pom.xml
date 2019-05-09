@@ -9,13 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.db.dbpalace</groupId>
-	<artifactId>properties_client</artifactId>
+	<artifactId>properties-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>properties_client</name>
+	<name>properties-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>Greenwich.RC2</spring-cloud.version>
 	</properties>
 
 	<dependencies>
@@ -29,7 +30,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+		    <groupId>org.springframework.cloud</groupId>
+		    <artifactId>spring-cloud-starter-config</artifactId>
+		    <version>2.1.0.RELEASE</version>
+		</dependency>
+				
 	</dependencies>
+
 
 	<build>
 		<defaultGoal>install</defaultGoal>
